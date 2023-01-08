@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./settings.component.css']
 })
 export class SettingsComponent {
-
+  logout(){
+    if(confirm("Do you want to logout?")){
+      window.location.href = "http://localhost:4200/login";
+    }else{
+      return;
+    }
+  }
 }
