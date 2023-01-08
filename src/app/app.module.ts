@@ -14,8 +14,9 @@ import { SettingsComponent } from './settings/settings.component';
 import { HelpPageComponent } from './help-page/help-page.component';
 
 const appRoutes: Routes = [
-  { path: 'home', component: HomeComponent },
   { path: '', component: LoginComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'login', component: LoginComponent },
   { path: 'profile', component: ProfileComponent},
   { path: 'houses', component: HousesComponent},
   { path: 'sensor', component: SensorComponent},

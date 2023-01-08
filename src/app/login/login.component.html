@@ -11,15 +11,16 @@
         <br>
         <span style="font-weight: bold; font-size: 20px">or login to acces!</span> 
         <br><br>
-      <div>
-        <form action="/home">
+      <div id="loginDiv">
+
           <label for="fname">Username or email:</label><br>
           <input type="text" id="fname" name="fname" placeholder="example@example.com"><br>
           <br>          
           <label for="lname">Password:</label><br>
           <input type="password" id="lname" name="lname"><br><br>
-          <input type="submit" value="Submit" class="button">
-        </form>
+          <input type="submit" value="Submit" class="button" (click)="login()">
+          <br> <br> 
+
       </div>
     </div>
   </div>

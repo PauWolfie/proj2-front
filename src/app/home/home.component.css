@@ -86,6 +86,9 @@ nav:hover {
   bottom: 0;
 }
 
+.mainBody {
+  margin-left: 100px;
+}
 
 /* Styles for body:*/
 .mainBody {
